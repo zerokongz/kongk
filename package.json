@@ -1,0 +1,32 @@
+{
+  "name": "yayaml",
+  "version": "1.0.0",
+  "description": "Yet another Yet another markup language",
+  "main": "lib/yayaml.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgiffard/YAYAML.git"
+  },
+  "keywords": [
+    "YAYAML",
+    "YAML",
+    "Markup",
+    "Language"
+  ],
+  "author": "Christopher Giffard <christopher.giffard@cgiffard.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgiffard/YAYAML/issues"
+  },
+  "homepage": "https://github.com/cgiffard/YAYAML#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.0"
+  }
+}
