@@ -1,18 +1,31 @@
 {
   "name": "kongk",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "kongk 是一个 [面向新手的功能库]",
+  "main": "lib/kongk.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec test"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerokongz/kongk.git"
+  },
+  "keywords": [
+    "kongk",
+    "kongk",
+    "Markup",
+    "Language"
+  ],
+  "author": "zerokongz <kongwu391@gmail.com>",
   "license": "ISC",
-  "devDependencies": {
-    "rollup": "^4.13.2"
+  "bugs": {
+    "url": "https://github.com/zerokongz/kongk?tab=readme-ov-file#readme"
   },
-  "dependencies": {
-    "kongk": "^1.0.0"
+  "homepage": "https://github.com/zerokongz/kongk?tab=readme-ov-file#readme",
+  "devDependencies": {
+    "kongk": "^1.0.1",
   }
 }
